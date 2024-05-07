@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Demonstration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="text-align: center;">
+<form action="/submit" method="post">
+
+<label for="text-input">NAME:</label>
+<input type="text" id="text-input" name="text_input" placeholder="Enter Name" required>
+
+<br>
+<label for="email-input">EMAIL:</label>
+<input type="password" id="email-input" name="email_input" placeholder="Enter Email" required>
+<br>
+
+<label for="password-input">PASSWORD:</label>
+<input type="password" id="password-input" name="password_input" placeholder="Enter Password" required>
+<br>
+
+<label for="number-input">PHONE NUMBER:</label>
+    <input type="number" id="number-input" name="number_input" placeholder="Phone Number" required>
+    <br>
+
+    <label for="checkbox-input">HOBBIES:</label>
+    <input type="checkbox" id="checkbox-input" name="checkbox_input" value="Cycling">Cycling
+    <input type="checkbox" id="checkbox-input" name="checkbox-input" value="Dancing">Dancing
+    <input type="checkbox" id="checkbox-input" name="checkbox-input" value="Climbing">Climbing
+    <input type="checkbox" id="checkbox-input" name="checkbox-input" value="Playing Cricket">Playing Cricket
+    <br>
+
+    GENDER : <input type="radio"name="1">Male
+    <input type="radio"name="1">Female
+    <br>
+
+    <label for="select-dropdown">SELECT COURSE:</label>
+    <select id="select-dropdown" name="select_input">
+      <option value="option1">Courses</option>
+      <option value="option2">Bsc CS</option>
+      <option value="option3">Bsc IT</option>
+      <option value="option4">BCA</option>
+      <option value="option5">BCS</option>
+      <option value="option6">B Tech</option>
+      <option value="option7">M Tech</option>
+      <option value="option8">Msc CS</option>
+      <option value="option9">Msc IT</option>
+      <option value="option10">MCA</option>
+      <option value="option11">MCS</option>
+    </select>
+    <br>
+
+    <label for="text-area">ADDRESS:</label>
+    <textarea id="text-area" name="text_area" rows="4" cols="50" placeholder="Enter Address"></textarea>
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
